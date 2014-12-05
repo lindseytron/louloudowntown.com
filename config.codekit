@@ -3596,6 +3596,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/design_assets\/comingsoon--mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 167865,
+		"inputAbbreviatedPath": "\/design_assets\/comingsoon--mobile.png",
+		"outputAbbreviatedPath": "\/design_assets\/comingsoon--mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/design_assets\/favicon_16x16.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3649,7 +3660,7 @@
 		"outputAbbreviatedPath": "\/img\/dark_wood.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/dark_wood_@2X.png": {
 		"fileType": 32768,
@@ -3660,7 +3671,18 @@
 		"outputAbbreviatedPath": "\/img\/dark_wood_@2X.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/loulou-scissor-razor--dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8171,
+		"inputAbbreviatedPath": "\/img\/loulou-scissor-razor--dark.png",
+		"outputAbbreviatedPath": "\/img\/loulou-scissor-razor--dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/loulou-scissor-razor--light.png": {
 		"fileType": 32768,
@@ -3671,7 +3693,7 @@
 		"outputAbbreviatedPath": "\/img\/loulou-scissor-razor--light.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/loulouscissor-razor--dark.png": {
 		"fileType": 32768,
@@ -3682,7 +3704,7 @@
 		"outputAbbreviatedPath": "\/img\/loulouscissor-razor--dark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/textured_paper.png": {
 		"fileType": 32768,
@@ -3693,7 +3715,7 @@
 		"outputAbbreviatedPath": "\/img\/textured_paper.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/textured_paper_@2X.png": {
 		"fileType": 32768,
@@ -3704,7 +3726,7 @@
 		"outputAbbreviatedPath": "\/img\/textured_paper_@2X.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -3721,6 +3743,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/app.js",
 		"outputAbbreviatedPath": "\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/app-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/app-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/app-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
