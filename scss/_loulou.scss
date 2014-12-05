@@ -124,17 +124,17 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1;
 }
 footer {
-	background-color: $monsoon;
-	padding: 15px;
+	background-color: rgba($monsoon, .8);
+	padding: 15px 30px;
 	color: $off-white;
 	margin: 0;
-	-webkit-opacity: .8;
-	   -moz-opacity: .8;
-	    -ms-opacity: .8;
-	     -o-opacity: .8;
-	        opacity: .8;
 }
 .social-bar {
 	@extend .text-right;
 	font-size: $h2-font-size;
+}
+.copy-bar {
+	@extend .serif;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
