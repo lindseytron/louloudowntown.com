@@ -1,8 +1,14 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+# humanstxt.org
 
-/* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+# Team
+
+	Lindsey Campbell
+	http://lindseytron.com
+	@_lindseytron
+	Cleveland, OH
+
+# Tech
+  HTML5, CSS3, Zurb Foundation
+  jQuery, Orbit, Reveal
+  
+  Software: Sublime Text 3, CodeKit 2, Sketch, Git
