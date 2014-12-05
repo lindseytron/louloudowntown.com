@@ -5999,21 +5999,21 @@ body {
   margin: 0; }
 
 .hero-wrapper {
-  margin: 30px;
-  padding: 30px;
+  margin: 20px;
+  padding: 15px;
   background: #f5f6f1;
   text-align: center; }
 
 .display-lg, .display-md, .display-sm {
   font-family: "fine_blackboardregular", 'League Gothic', Futura, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
-  font-size: 3.375rem;
+  font-size: 3.25rem;
   text-transform: uppercase;
   line-height: 1;
   color: #333333; }
 
 .display-md {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
   line-height: 1.2; }
 
 .display-sm {

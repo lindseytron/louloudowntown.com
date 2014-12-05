@@ -59,8 +59,8 @@ body {
 	margin: 0;
 }
 .hero-wrapper {
-	margin: 30px;
-	padding: 30px;
+	margin: 20px;
+	padding: 15px;
 	background: $off-white;
 	text-align: center;
 }
@@ -70,14 +70,14 @@ body {
 .display-lg {
 	font-family: "fine_blackboardregular", $header-font-family;
 	font-weight: normal;
-	font-size: rem-calc(54);
+	font-size: rem-calc(52);
 	text-transform: uppercase;
 	line-height: 1;
 	color: $oil;
 }
 .display-md {
 	@extend .display-lg;
-	font-size: rem-calc(26);
+	font-size: rem-calc(24);
 	line-height: 1.2;
 }
 .display-sm {
