@@ -64,8 +64,23 @@ body {
 	background: $off-white;
 	text-align: center;
 }
-.logo-wrapper {
-	//text-align: center;
+@media #{$medium-up} {
+	.hero-wrapper {
+		margin: 30px 30px 0 30px;
+		padding: 30px;
+	}
+}
+.logo-wrapper .logo-symbol {
+	width: 80px;
+}
+@media #{$medium-up} {
+	.logo-wrapper {
+		text-align: left;
+	}
+	.logo-wrapper .logo-symbol {
+		width: 100%;
+		max-width: 100px;
+	}
 }
 .display-lg {
 	font-family: "fine_blackboardregular", $header-font-family;
@@ -83,6 +98,17 @@ body {
 .display-sm {
 	@extend .display-lg;
 	font-size: rem-calc(20);
+}
+@media #{$medium-up} {
+	.display-lg {
+		font-size: rem-calc(54);
+	}
+	.display-md {
+		font-size: rem-calc(26);
+	}
+	.display-sm {
+		font-size: rem-calc(22);
+	}
 }
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
@@ -112,6 +138,19 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	margin: -4px auto 0 auto;
 }
+@media #{$medium-up} {
+	.lead-em {
+		font-size: $h1-font-size;
+	}
+	.highlighted-header {
+		display: inline-block;
+		padding: 10px;
+		font-size: rem-calc(72);
+	}
+	.logo-symbol {
+		display: inline;
+	}
+}
 .badge {
 	background: transparent url('../img/badge.svg') no-repeat;
 	height: 120px;
@@ -127,6 +166,13 @@ footer {
 	background-color: rgba($iron, .85);
 	padding: 15px 30px;
 	margin: 0;
+}
+@media #{$medium-up} {
+	footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
 }
 .social-bar {
 	@extend .text-right;

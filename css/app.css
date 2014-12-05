@@ -6004,6 +6004,24 @@ body {
   background: #f5f6f1;
   text-align: center; }
 
+@media only screen and (min-width:40.063em) {
+  .hero-wrapper {
+    margin: 30px 30px 0 30px;
+    padding: 30px; }
+ }
+
+.logo-wrapper .logo-symbol {
+  width: 80px; }
+
+@media only screen and (min-width:40.063em) {
+  .logo-wrapper {
+    text-align: left; }
+
+  .logo-wrapper .logo-symbol {
+    width: 100%;
+    max-width: 100px; }
+ }
+
 .display-lg, .display-md, .display-sm {
   font-family: "fine_blackboardregular", 'League Gothic', Futura, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -6018,6 +6036,17 @@ body {
 
 .display-sm {
   font-size: 1.25rem; }
+
+@media only screen and (min-width:40.063em) {
+  .display-lg, .display-md, .display-sm {
+    font-size: 3.375rem; }
+
+  .display-md {
+    font-size: 1.625rem; }
+
+  .display-sm {
+    font-size: 1.375rem; }
+ }
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
@@ -6047,6 +6076,19 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: -4px auto 0 auto; }
 
+@media only screen and (min-width:40.063em) {
+  .lead-em {
+    font-size: 2.75rem; }
+
+  .highlighted-header {
+    display: inline-block;
+    padding: 10px;
+    font-size: 4.5rem; }
+
+  .logo-symbol {
+    display: inline; }
+ }
+
 .badge {
   background: transparent url('../img/badge.svg') no-repeat;
   height: 120px;
@@ -6062,6 +6104,13 @@ footer {
   background-color: rgba(204, 204, 204, 0.85);
   padding: 15px 30px;
   margin: 0; }
+
+@media only screen and (min-width:40.063em) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+ }
 
 .social-bar {
   font-size: 2.3125rem; }
