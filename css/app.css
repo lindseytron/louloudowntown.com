@@ -6004,10 +6004,16 @@ body {
   background: #f5f6f1;
   text-align: center; }
 
+.meta-labels {
+  padding-top: 5px; }
+
 @media only screen and (min-width:40.063em) {
   .hero-wrapper {
     margin: 30px 30px 0 30px;
     padding: 30px; }
+
+  .meta-labels {
+    text-align: right; }
  }
 
 .logo-wrapper .logo-symbol {
@@ -6057,7 +6063,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: fanwooditalic, Georgia, Cambria, "Times New Roman", Times, serif;
   font-style: italic; }
 
-.serif, .copy-bar {
+.serif, .meta-labels, .copy-bar {
   font-family: fanwoodregular, Georgia, Cambria, "Times New Roman", Times, serif; }
 
 .highlighted-header {
