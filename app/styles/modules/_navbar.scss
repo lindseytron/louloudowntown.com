@@ -1,0 +1,21 @@
+.navbar {
+	background-color: $offwhite;
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+	font-family: $font-family-sans-serif;
+	font-size: $font-size-large;
+	font-weight: 500;
+}
+.navbar-nav > li > a {
+	line-height: 40px;
+	padding: 20px 15px;
+	font-size: $font-size-h3;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+	color: $brand-primary;
+	//text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}

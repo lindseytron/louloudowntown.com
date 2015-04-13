@@ -1,0 +1,15 @@
+$icon-font-path: "bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "base/_colors";
+@import "base/_custom-variables";
+@import "base/_fonts";
+@import "base/_display-type";
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "modules/_masthead-nav";
+@import "modules/_navbar";
+@import "modules/_jumbotron";
+@import "modules/_buttons";
+// endbower
+body {
+	padding-top: 80px; // navbar height
+}

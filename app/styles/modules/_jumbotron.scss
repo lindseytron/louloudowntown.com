@@ -1,0 +1,27 @@
+.jumbotron-wrapper {
+	background: #252B33 url("/images/fashion-placeholder.jpg") top left no-repeat;
+}
+.jumbotron {
+	text-align: center;
+	background: rgba(0, 0, 0, .54);
+	color: rgba(255, 255, 255, 1);
+	min-height: 600px;
+	padding-top: 6em;
+}
+.jumbotron .display-lg {
+	font-size: $font-size-h2;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5)
+}
+.jumbotron .display-xl {
+	display: inline-block;
+	font-size: $font-size-h1;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	border-top: 2px solid rgba(255, 255, 255, 1);
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
+	padding: 15px 10px;
+	margin: 0;
+}
+.jumbotron .display-em {
+	font-size: $font-size-h2;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
