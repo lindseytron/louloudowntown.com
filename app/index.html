@@ -41,6 +41,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
             <li role="presentation"><a href="#">Products</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -53,34 +54,93 @@
           <h2 class="display-lg">Hand Made, Barber Crafted</h2>
           <h1 class="display-xl">Barber & Beauty Products</h1>
           <h4 class="display-em">The best damn grooming products<br> you've ever laid your eyes on.</h3>
-          <p><a class="btn btn-primary btn-xl" href="#" role="button">Visit the Store &raquo;</a></p>
+          <p><a class="btn btn-primary btn-xl" href="#" role="button">Visit the Store <img src="images/pointing-hand-white.png" alt="pointing hand" width="50px"></a></p>
         </div>
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-6">
-          <h4>Beard Care & Grooming</h4>
-          <p>Our house brand <strong>Locust & Ash</strong> is designed  for men and made with high quality, all natural ingredients. We offer essential beard oils, mustache waxes, and other grooming supplies. All recipes are small batch, barber crafted, and created in house.</p>
-          <p><a class="btn btn-default" href="#" role="button">Shop Men's Products &raquo;</a></p>
+          <h2 class="h3 text-center">Beard Care & Grooming</h2>
+          <hr>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/locust-and-ash-logo.png" alt="Locust & Ash logo" class="img-responsive">
+            </div>
+            <div class="col-md-8">
+              <p class="lead">Our house brand <strong>Locust & Ash</strong> is designed  for men and made with high quality, all natural ingredients. We offer essential beard oils, mustache waxes, and other grooming supplies. All recipes are small batch, barber crafted, and created in house.</p>
+              <p><a class="btn btn-primary" href="#" role="button">Shop Men's Products &raquo;</a></p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-          <h4>Beauty Care</h4>
-          <p>For the ladies who are passionate about healthy skin and hair. You deserve honesty and simplicity with our hand made beauty products. Check out our lotions, massage oils, and other beauty products.</p>
-          <p><a class="btn btn-default" href="#" role="button">Shop Men's Products &raquo;</a></p>
-       </div>
-        <div class="col-md-3">
-          <h4>Featured Product</h4>
-          
+        <div class="col-md-6">
+          <h3 class="text-center">Featured Products</h3>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="https://squareup.com/market/louloudowntown/all-in-one-coffee-leather" class="sq-embed-item"> online</a>
+              <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
+            </div>
+            <div class="col-md-6">
+              <a href="https://squareup.com/market/louloudowntown/beard-dry-oil-bp-om" class="sq-embed-item"> online</a>
+              <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
+            </div>
+          </div>
         </div>
       </div>
+    </div> <!-- /container -->
+    <div class="wrapper-contrast">
+      <div class="container text-inverse">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="images/davidsherrill.jpg" alt="david sherrill, happy customer" class="img-circle center-block">
+            <hr>
+            <blockquote>
+              <p class="em">My chick Mary Elliott makes cool junk in her store.</p>
+              <p><small>David Sherrill</small></p>
+            </blockquote>
+          </div>
+          <div class="col-md-8 text-center">
+          <h1 class="display-xl">Go Ahead - You Deserve It</h1>
+          <h4 class="display-em">Treat yourself to our high quality, luxurious products. Create your perfect style.</h4>
+          <p><a class="btn btn-primary btn-xl" href="#" role="button">Shop &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /wrapper-contrast -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Tagged #locustandash on Instagram</h4>
+          <div id="instafeed" class="text-center"></div>
+        </div>
+      </div>
+      <footer class="text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/loulou-logo-crest-small.png" alt="LouLou crest logo"/>
+            <address>(330) 737-1377<br>
+            604 6th St NW<br>
+            Canton, OH 44703</address>
+          </div>
+          <div class="col-md-3">
 
-      <hr>
-
-      <footer>
-        <p>&copy; LouLou's Barber & Beauty 1999-2015. Hand crafted in Canton, OH. Made with <3.</p>
+          </div>
+          <div class="col-md-3">
+            <h4>About</h4>
+            A barbershop/salon mashup. Locust & Ash is the house brand of men's grooming products. Small-batch, barber-crafted in Downtown Canton. 
+          </div>
+          <div class="col-md-3">
+            <h4>Follow Us</h4>
+            <a href="#" class="twitter_transp">Twitter<span></span></a>
+            <a href="#" class="facebook_transp">Facebook<span></span></a>
+            <a href="#" class="instagram_transp">Instagram<span></span></a>
+          </div>
+        </div>
+        <div class="row">
+          <p>&copy; LouLou's Barber & Beauty 1999-2015. Hand crafted in Canton, OH. Made with <span class="glyphicon glyphicon-heart"></span>.</p>
+        </div>
       </footer>
     </div> <!-- /container -->
 
@@ -100,6 +160,8 @@
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+
+    <script src="bower_components/instafeed.js/instafeed.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -111,6 +173,16 @@
       e.src='//www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'tagged',
+            tagName: 'locustandash',
+            limit: 12,
+            clientId: '4752e6f9dbe34c13bbdd4063a185a00c',
+            template: '<a href="{{link}}"><img src="{{image}}" class="thumbnail-inline" /></a>'
+        });
+        feed.run();
     </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->

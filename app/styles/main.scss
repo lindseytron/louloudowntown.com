@@ -1,9 +1,10 @@
-$icon-font-path: "bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "base/_colors";
 @import "base/_custom-variables";
 @import "base/_fonts";
 @import "base/_display-type";
+@import "base/_icons";
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 @import "modules/_masthead-nav";
 @import "modules/_navbar";
@@ -12,4 +13,34 @@ $icon-font-path: "bower_components/bootstrap-sass-official/assets/fonts/bootstra
 // endbower
 body {
 	padding-top: 80px; // navbar height
+}
+blockquote {
+  quotes: "\201C""\201D";
+  border-left: none;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+.thumbnail-inline {
+	padding: 4px 12px;
+}
+.wrapper-contrast {
+	background: $offwhite url('../images/texture-bg.jpg') top left repeat;
+	margin: 40px 0;
+	padding: 40px 0;
+}
+.text-inverse {
+	color: $offwhite;
+}
+footer {
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
