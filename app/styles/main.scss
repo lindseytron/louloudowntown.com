@@ -9,6 +9,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "modules/_masthead-nav";
 @import "modules/_navbar";
 @import "modules/_jumbotron";
+@import "modules/_image-header";
 @import "modules/_buttons";
 // endbower
 body {
@@ -33,7 +34,7 @@ blockquote p {
 	padding: 4px 12px;
 }
 .wrapper-contrast {
-	background: $offwhite url('../images/texture-bg.jpg') top left repeat;
+	background: $offwhite url('../images/texture-bg.jpg') center center repeat;
 	margin: 40px 0;
 	padding: 40px 0;
 }
