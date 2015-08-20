@@ -1,18 +1,17 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
 @import "base/_colors";
 @import "base/_custom-variables";
 @import "base/_fonts";
 @import "base/_display-type";
 @import "base/_icons";
-// bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
 @import "modules/_masthead-nav";
 @import "modules/_navbar";
 @import "modules/_jumbotron";
 @import "modules/_image-header";
 @import "modules/_buttons";
-
+// endbower
 body {
 	padding-top: 80px; // navbar height
 }
@@ -64,4 +63,15 @@ hr:after {
 	font-size: 1.5em; 
 	padding: 0 0.25em; 
 	background: $offwhite; 
+}
+.vote-badge {
+	margin-top: -20px;
+	margin-bottom: 25px;
+	display: block;
+}
+@media (min-width: $screen-lg-min) {
+	.vote-badge {
+		float: left;
+		margin-right: -185px;
+	}
 }
